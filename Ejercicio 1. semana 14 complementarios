@@ -1,0 +1,18 @@
+Proceso eje_1
+	Definir  nombre, x Como Caracter
+	Escribir  "Ingrese su nombre y apellidos"
+	Leer  nombre
+	Escribir  "Que es lo que decea hacer?"
+	Escribir  "1: Convertir el texto a Mayusculas"
+	Escribir  "2: Convertir a Minisculas"
+	Leer  x
+	Segun  x Hacer
+		1 :
+			Escribir  Mayusculas (nombre)
+		2 :
+			Escribir  Minusculas (nombre)
+		De  Otro Modo:
+			Escribir  "error"
+	FinSegun
+	
+FinProceso
